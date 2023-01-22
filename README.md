@@ -1,5 +1,5 @@
 # Linux_Commands
-- [ ] <kbd>nslookup</kbd> is a useful command for getting information from the DNS server
+- [ ] **<kbd>nslookup</kbd>** is a useful command for getting information from the DNS server
     <kbd>nslookup</kbd> <ipaddress/servername>
 - [ ] If <kbd>nslookup</kbd> command does't exist in your system (check by typing "<kbd>which nslookup</kbd>") then try to install it
     1. yum whatprovides nslookup 
@@ -15,6 +15,6 @@
 - [ ]  <kbd>find</kbd> - command helps to find specific file/folder 
          #find <folder name where to look for file/folder | grep <file/folder name>
          <kbd>find /etc/ | grep sshd_config</kbd>
-         
+
 
  
