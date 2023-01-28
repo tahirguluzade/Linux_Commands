@@ -1,5 +1,5 @@
 # Linux_Commands
-- [ ] <kbd><font size = "6">nslookup</font></kbd></font> is a useful command for getting information from the DNS server
+- [ ] <kbd><font size = "15">nslookup</font></kbd></font> is a useful command for getting information from the DNS server
     <kbd>nslookup</kbd> <ipaddress/servername>
 
 - [ ] If <kbd>nslookup</kbd> command does't exist in your system (check by typing "<kbd>which nslookup</kbd>") then try to install it
