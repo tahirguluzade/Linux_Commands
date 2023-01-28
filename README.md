@@ -1,6 +1,6 @@
 # Linux_Commands
 - [ ] <kbd>**nslookup**</kbd> ---- is a useful command for getting information from the DNS server
-    <kbd>nslookup</kbd> <ipaddress/servername>
+         <kbd>**nslookup**</kbd> <ipaddress/servername>
 
 - [ ] If <kbd>**nslookup**</kbd> --- command does't exist in your system (check by typing "<kbd>**which nslookup**</kbd>") then try to install it
     1. yum whatprovides nslookup 
@@ -10,7 +10,7 @@
         <kbd>**df -h**</kbd> shows in human readable format
 
 - [ ] <kbd>**du**</kbd>----> command gives size of the directories/ files in current directory or in specified directory
-        + <kbd>**du -h**<file/folderpath></kbd> ---> gives size of specified file/folder
+         <kbd>**du -h**<file/folderpath></kbd> ---> gives size of specified file/folder
 
 - [ ] <kbd>**uname**</kbd>----> which gives kernel name
         options:
@@ -19,7 +19,7 @@
 
 - [ ]  <kbd>**find**</kbd> ----> command helps to find specific file/folder 
          <kbd>**find _folder name where to look for file/folder_ | grep _file/folder name_**</kbd>
-         # EX: <kbd>**find /etc/ | grep sshd_config**</kbd>
+            # EX: <kbd>**find /etc/ | grep sshd_config**</kbd>
 
 - 
 
