@@ -10,7 +10,7 @@
         <kbd>**df -h**</kbd> shows in human readable format
 
 - [ ] <kbd>**du**</kbd>----> command gives size of the directories/ files in current directory or in specified directory
-+ <kbd>**du -h**<file/folderpath></kbd> ---> gives size of specified file/folder
+        + <kbd>**du -h**<file/folderpath></kbd> ---> gives size of specified file/folder
 
 - [ ] <kbd>**uname**</kbd>----> which gives kernel name
         options:
