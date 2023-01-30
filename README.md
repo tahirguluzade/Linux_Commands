@@ -18,6 +18,7 @@ yum install <result of first command>
 `df -h`----> shows in human readable format
 
 - [x] `du`----> command gives size of the directories/ files in current directory or in specified directory
+
 `du -h  <file/folderpath>` ---> gives size of specified file/folder
 
 - [x] `uname`----> which gives kernel name
