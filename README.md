@@ -2,7 +2,7 @@
 
 
 
-<img src="https://github.com/tahirguluzade/Linux_Commands/blob/master/images/Linux%20LOGO%20-%20Gemaakt%20met%20PosterMyWall.jpg" width=25% height=25%>
+<img src="https://github.com/tahirguluzade/Linux_Commands/blob/master/images/Linux%20LOGO%20-%20Gemaakt%20met%20PosterMyWall.jpg" width=50% height=50%>
 
 
 - [x] `nslookup` <----> is a useful command for getting information from the DNS server
