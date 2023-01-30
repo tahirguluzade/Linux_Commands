@@ -49,14 +49,14 @@ yum install <result of first command>
  
 - [x] `grep -nr <string> <file/folder path>` ----> to find specific strings under any diretory/file
 
-    _incase sensitive_: EX
+    _incase sensitive_:
     ```
     grep -nr password /etc/ssh
     ```
 
-    _case sensitive_:
+    _case sensitive_:  will not care about uppercase/lowercase
     ```
-    EX: grep -inr password /etc/ssh -- will not care about uppercase/lowercase
+    grep -inr password /etc/ssh
     ```
 - [x] **What is inode in Linux?**
 
@@ -70,5 +70,9 @@ yum install <result of first command>
     EX: below commmands will create file apple with size of 100M
     ```
      dd if=/dev/zero of=apple bs=100M count=1
-     dd if=/dev/zero of=apple bs=1M count=100     
+    ```
+    or
+    
+    ```
+    dd if=/dev/zero of=apple bs=1M count=100     
     ```
