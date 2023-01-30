@@ -1,8 +1,8 @@
 # Linux_Commands
-- [ ] <kbd>**nslookup**</kbd> ----> is a useful command for getting information from the DNS server
-  **`nslookup <ipaddress/servername>`**
+- [x] `nslookup` ----> is a useful command for getting information from the DNS server
+  - `nslookup <ipaddress/servername>`
 
-- [ ] If <kbd>**nslookup**</kbd> --- command does't exist in your system (check by typing "<kbd>**which nslookup**</kbd>") then try to install it
+- [x] If <kbd>**nslookup**</kbd> --- command does't exist in your system (check by typing "<kbd>**which nslookup**</kbd>") then try to install it
     1. yum whatprovides nslookup 
     2. yum install _"result of first command"_
 
