@@ -19,7 +19,10 @@ yum install <result of first command>
 
 - [x] `du`----> command gives size of the directories/ files in current directory or in specified directory
 
-`du -h  <file/folderpath>` ---> gives size of specified file/folder
+`du -sh  <file/folderpath>` ---> gives size of specified file/folder
+
+<img src="C:\Users\LENOVO\Desktop\Linux_Commands\images" width=50% height=50%>
+
 
 - [x] `uname`----> which gives kernel name
     ```
