@@ -5,7 +5,9 @@
 - [x] If `nslookup` ---> command does't exist in your system (check by typing `which nslookup` then try to install it
 ```
 yum whatprovides nslookup 
-yum install _"result of first command"_
+```
+```
+yum install <result of first command>
 ```
 - [ ] <kbd>**df**</kbd>----> command helps us to determine general information about disks (size, used/avail spaces, partitions)
         <kbd>**df -h**</kbd> shows in human readable format
