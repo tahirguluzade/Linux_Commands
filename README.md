@@ -50,8 +50,11 @@ yum install <result of first command>
 - [x] `grep -nr <string> <file/folder path>` ----> to find specific strings under any diretory/file
 
     _incase sensitive_:
+
     EX: `grep -nr password /etc/ssh`
+
     _case sensitive_:
+
     EX: `grep -inr password /etc/ssh` -- will not care about uppercase/lowercase
 
 - [x] **What is inode in Linux?**
@@ -64,4 +67,5 @@ yum install <result of first command>
 - [x] `dd if=/dev/zero of=file name bs=size in Mb count=number` ----> To reate new empty file with specific size 
 
     EX: `dd if=/dev/zero of=apple bs=100M count=1` --> will create file apple with size of 100M
+    
      or `dd if=/dev/zero of=apple bs=1M count=100`      
