@@ -1,6 +1,6 @@
 # Linux_Commands
 - [ ] <kbd>**nslookup**</kbd> ----> is a useful command for getting information from the DNS server
-    ==nslookup== _ipaddress/servername_
+nslookup _ipaddress/servername_
 
 - [ ] If <kbd>**nslookup**</kbd> --- command does't exist in your system (check by typing "<kbd>**which nslookup**</kbd>") then try to install it
     1. yum whatprovides nslookup 
@@ -21,5 +21,5 @@
          <kbd>**find _folder name where to look for file/folder_ | grep _file/folder name_**</kbd>
          # EX: <kbd>**find /etc/ | grep sshd_config**</kbd>
 - [ ]  
- 
+![This is an image](https://nl.postermywall.com/index.php/posterbuilder/copy/b04c5960543f942cbd64c81280a5a941)
  
