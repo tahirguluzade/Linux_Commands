@@ -2,10 +2,11 @@
 - [x] `nslookup` ----> is a useful command for getting information from the DNS server
   - `nslookup <ipaddress/servername>`
 
-- [x] If <kbd>**nslookup**</kbd> --- command does't exist in your system (check by typing "<kbd>**which nslookup**</kbd>") then try to install it
-    1. yum whatprovides nslookup 
-    2. yum install _"result of first command"_
-
+- [x] If `nslookup` ---> command does't exist in your system (check by typing `which nslookup` then try to install it
+```
+yum whatprovides nslookup 
+yum install _"result of first command"_
+```
 - [ ] <kbd>**df**</kbd>----> command helps us to determine general information about disks (size, used/avail spaces, partitions)
         <kbd>**df -h**</kbd> shows in human readable format
 
