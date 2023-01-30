@@ -49,23 +49,26 @@ yum install <result of first command>
  
 - [x] `grep -nr <string> <file/folder path>` ----> to find specific strings under any diretory/file
 
-    _incase sensitive_:
-
-    EX: `grep -nr password /etc/ssh`
+    _incase sensitive_: EX
+    ```
+    grep -nr password /etc/ssh
+    ```
 
     _case sensitive_:
-
-    EX: `grep -inr password /etc/ssh` -- will not care about uppercase/lowercase
-
+    ```
+    EX: grep -inr password /etc/ssh -- will not care about uppercase/lowercase
+    ```
 - [x] **What is inode in Linux?**
 
     inode is a data structure in Linux which stores infromations about files.
-    Inode does not cotain file name., it is caring about metadata (permissions, uid, gid, file zie, owner of file) of files. when we create a file, inode number and file name are gonna attach it.
+    Inode does not cotain file name. it is caring about metadata of files(permissions, uid, gid, file size, owner of file). when we create a file, inode number and file name are gonna attach it.
 
     You can check inode number by typing `ll -i` command
 
 - [x] `dd if=/dev/zero of=file name bs=size in Mb count=number` ----> To reate new empty file with specific size 
 
-    EX: `dd if=/dev/zero of=apple bs=100M count=1` --> will create file apple with size of 100M
-    
-     or `dd if=/dev/zero of=apple bs=1M count=100`      
+    EX: below commmands will create file apple with size of 100M
+    ```
+     dd if=/dev/zero of=apple bs=100M count=1
+     dd if=/dev/zero of=apple bs=1M count=100     
+    ```
