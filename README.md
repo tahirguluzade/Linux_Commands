@@ -7,7 +7,7 @@
 
 - [x] `nslookup` ----> is a useful command for getting information from the DNS server
 ```
-`nslookup <ipaddress/servername>`
+nslookup <ipaddress/servername>
 ```
 - [x] If `nslookup` ---> command does't exist in your system (check by typing `which nslookup` then try to install it
 ```
@@ -49,12 +49,12 @@ yum install <result of first command>
  
 - [x] `grep -nr <string> <file/folder path>` ----> to find specific strings under any diretory/file
 
-    _incase sensitive_:
+    _case sensitive_:
     ```
     grep -nr password /etc/ssh
     ```
 
-    _case sensitive_:  will not care about uppercase/lowercase
+    _incase sensitive_:  will not care about uppercase/lowercase
     ```
     grep -inr password /etc/ssh
     ```
