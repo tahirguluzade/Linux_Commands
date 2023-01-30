@@ -2,7 +2,7 @@
 
 
 
-<img src="https://github.com/tahirguluzade/Linux_Commands/blob/master/linux-logo-design-template-b04c5960543f942cbd64c81280a5a941_screen.jpg" width=50% height=50%>
+<img src="https://github.com/tahirguluzade/Linux_Commands/blob/master/linux-logo-design-template-b04c5960543f942cbd64c81280a5a941_screen.jpg" width=25% height=25%>
 
 
 - [x] `nslookup` ----> is a useful command for getting information from the DNS server
@@ -27,7 +27,5 @@ yum install <result of first command>
             -r ----> shows kernel version
     ```
 - [x]  `find` ----> command helps to find specific file/folder 
-         #EX: `find /etc/ | grep sshd_config` shows in which directory of etc `sshd_config` is located.
-
-![linux](https://github.com/tahirguluzade/Linux_Commands/blob/master/linux-logo-design-template-b04c5960543f942cbd64c81280a5a941_screen.jpg)  
+         #EX: `find /etc/ | grep sshd_config` shows in which directory of etc `sshd_config` is located. 
 
