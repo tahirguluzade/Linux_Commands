@@ -2,7 +2,7 @@
 
 
 
-<img src="https://github.com/tahirguluzade/Linux_Commands/blob/master/linux-logo-design-template-b04c5960543f942cbd64c81280a5a941_screen.jpg" width=25% height=25%>
+<img src="https://github.com/tahirguluzade/Linux_Commands/blob/master/images/linux-logo-design-template-b04c5960543f942cbd64c81280a5a941_screen.jpg" width=25% height=25%>
 
 
 - [x] `nslookup` ----> is a useful command for getting information from the DNS server
@@ -72,7 +72,7 @@ yum install <result of first command>
      dd if=/dev/zero of=apple bs=100M count=1
     ```
     or
-    
+
     ```
     dd if=/dev/zero of=apple bs=1M count=100     
     ```
