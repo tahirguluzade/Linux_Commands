@@ -80,18 +80,21 @@ yum install <result of first command>
 - [x] `setfacl -R -m u:username:permissions <folder path> ` <----> to give permission only for specific user/group
 - 
     In below examples, we gave "rwx" permission for user "tesla" and group "wheel" to "/developers" folder. Pay attention to Capital "X". If you use lowercase "x", the execute permission will apply to the all files under developers. However, in case of using uppercase "X" , it will only apply for directories under /developers. 
-
-    `setfacl -R -m u:tesla:rwx  /developers`
-    `setfacl -R -m g:wheel:rwx  /developers`
-
-    `setfacl -R -m u:tesla:rwX  /developers`
-    `setfacl -R -m g:wheel:rwX  /developers`
+```
+setfacl -R -m u:tesla:rwx  /developers
+setfacl -R -m g:wheel:rwx  /developers
+```
+```
+setfacl -R -m u:tesla:rwX  /developers
+setfacl -R -m g:wheel:rwX  /developers
+```
 
 
 -     If you crate new file after above kind of permission, it will not be valid for new created file, so you need  to use `-d ` option to make it beneficial for all new files.
-
-    `setfacl -R -m -d u:tesla:rwX  /developers`
-    `setfacl -R -m -d g:wheel:rwX  /developers`
+```
+setfacl -R -m -d u:tesla:rwX  /developers
+setfacl -R -m -d g:wheel:rwX  /developers
+```
 
 
     
