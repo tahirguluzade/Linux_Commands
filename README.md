@@ -22,4 +22,4 @@ yum install <result of first command>
     ```
 - [x]  `find` ----> command helps to find specific file/folder 
          #EX: `find /etc/ | grep sshd_config` shows in which directory of etc `sshd_config` is located.
-- [x]  
+![linux](https://github.com/tahirguluzade/Linux_Commands/blob/master/linux-logo-design-template-b04c5960543f942cbd64c81280a5a941_screen.jpg)  
