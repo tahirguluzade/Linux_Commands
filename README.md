@@ -17,11 +17,11 @@ yum install <result of first command>
 - [x] `df` ----> command helps us to determine general information about disks (size, used/avail spaces, partitions)
 `df -h`----> shows in human readable format
 
-- [x] `du`----> command gives size of the directories/ files in current directory or in specified directory
+- [x]  `du`----> command gives size of the directories/ files in current directory or in specified directory
 
-`du -sh  <file/folderpath>` ---> gives size of specified file/folder
+     `du -sh  <file/folderpath>` ---> gives size of specified file/folder
 
-<img src="https://github.com/tahirguluzade/Linux_Commands/blob/master/images/Screenshot%202023-01-30%20015645.png" width=50% height=50%>
+     <img src="https://github.com/tahirguluzade/Linux_Commands/blob/master/images/Screenshot%202023-01-30%20015645.png" width=50% height=50%>
 
 
 - [x] `uname`----> which gives kernel name
