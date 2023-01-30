@@ -90,7 +90,9 @@ setfacl -R -m g:wheel:rwX  /developers
 ```
 
 
--     If you crate new file after above kind of permission, it will not be valid for new created file, so you need  to use `-d ` option to make it beneficial for all new files.
+-     
+    If you crate new file after above kind of permission, it will not be valid for new created file, so you need   to use `-d ` option to make it beneficial for all new files.
+
 ```
 setfacl -R -m -d u:tesla:rwX  /developers
 setfacl -R -m -d g:wheel:rwX  /developers
