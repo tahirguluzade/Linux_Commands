@@ -14,11 +14,13 @@ A Linux Repository is basically a database of application installation packages 
     enabled=<if you set this value to 0 then it ignore this repo while you install software, else it doesn't (default =1)
     gpgcheck=<GNU privacy guard>
     gpgkey=<key url>
-- 
-                                gpgcheck stands for signature verification from its central database. 
-                                If signature verification is successful then you sure about the security. If you set the value of gpgcheck is 1 then you need to put key as well and it asks for signature varification else it doesn’t.
 
     ```
+- 
+        gpgcheck stands for signature verification from its central database. 
+        If signature verification is successful then you sure about the security. 
+        If you set the value of gpgcheck is 1 then you need to put key as well and 
+        it asks for signature varification else it doesn’t.
 
 - [x] Example: repository for installing docker
 
