@@ -16,7 +16,12 @@ A Linux Repository is basically a database of application installation packages 
     gpgkey=<key url>
                                 
                                 gpgcheck stands for signature verification from its central database. 
-                                If signature verification is successful then you sure about the security. If you set the value of gpgcheck is 1 then you need to put key as well and it asks for signature varification else it doesn’t.
+
+                                If signature verification is successful then you sure about the 
+
+                                security. If you set the value of gpgcheck is 1 then you need to put
+                                 
+                                key as well and it asks for signature varification else it doesn’t.
 
     ```
 
