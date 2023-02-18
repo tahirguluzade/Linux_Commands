@@ -1,6 +1,15 @@
-## what is repository in Linux?
+## What is repository in Linux?
 A Linux Repository is basically a database of application installation packages and upgrade packages available for your choice of Linux distro. Think of it like an app store. You can search among hundreds, even thousands, of applications, and install them in minutes.
 
+- [x]  **To access all files on your CD/DVD ROM**
+- create new directory under /mnt or directly mount into it
+
+```
+mkdir /mnt/cdrom
+mount /dev/sr0 /mnt
+```
+- now after mounting CD/DVD ROM, you can see all files under /mnt
+ 
 ## How to create repository?
 
 - [x] Go to /etc/yum.repos.d and create new file with name.repo and write followings in it.
