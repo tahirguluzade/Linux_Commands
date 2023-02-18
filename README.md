@@ -97,6 +97,23 @@ setfacl -R -m g:wheel:rwX  /developers
 setfacl -R -m -d u:tesla:rwX  /developers
 setfacl -R -m -d g:wheel:rwX  /developers
 ```
+- 
+    You can check if file/folder have access lis , just running `getfacl` command.
+    ```
+    getfacl /root/developers/java
+    ```
 
+- [x] `chattr` change file attributes on a Linux file system
+
+- 
+    in below example, we gave "i"(immutable) attribute to apache2 file, which will not deleted by any users even root. This permission is applied especially for preventing files from accidentally deletion.
+    ```
+    chatter +i /root/apache2
+    ```
+- 
+    You can check if file contains any attributes , just running `lsattr` command.
+    ```
+    lsattr /root/developers/java
+    ```
 
     
