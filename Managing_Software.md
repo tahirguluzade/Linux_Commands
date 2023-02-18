@@ -9,6 +9,8 @@ mkdir /mnt/cdrom
 mount /dev/sr0 /mnt
 ```
 - now after mounting CD/DVD ROM, you can see all files under /mnt
+
+    <img src="images/Screenshot 2023-02-18 153859.png" width=50% height=50%>
  
 ## How to create repository?
 
