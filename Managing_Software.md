@@ -3,7 +3,8 @@ A Linux Repository is basically a database of application installation packages 
 
 ## How to create repository?
 
-    Go to /etc/yum.repos.d and create new file with name.repo and write followings in it.
+- [x] Go to /etc/yum.repos.d and create new file with name.repo and write followings in it.
+
 
     ```
     [label] label of repository like id of it , you can put anything.
