@@ -12,7 +12,7 @@ mount /dev/sr0 /mnt
 
     <img src="images/Screenshot 2023-02-18 154239.png" width=50% height=50%>
 
-- now after mounting CD/DVD ROM, you can see all files under /mnt
+- now after mounting CD/DVD ROM, you can see all files under /mnt/cdrom
 
     <img src="images/Screenshot 2023-02-18 153859.png" width=50% height=50%>
  
@@ -46,5 +46,22 @@ mount /dev/sr0 /mnt
 			enabled=1
 			gpgcheck=1
 			gpgkey=https://download.docker.com/linux/centos/gpg
-        ```
 
+        ```
+- [x] `yum install <package name>` <---> install the packages
+- [x] `yum remove <package name>` <----> remove the packages
+- [x] `yum search <package name>` <----> search for exact name of package
+- [x] `yum whatprovides <package name>` <----> deep search, looks for specific files inside package
+- [x] `yum update <package name>` <----> updating the packages
+- [x] `yum clean all` <---->  clear all metadata
+- [x] `yum info <package name>` <---->  getting information about packages
+
+    ```
+    yum info telnet
+    ```
+
+    <img src="images/Screenshot 2023-02-18 160501.png" width=50% height=50%>
+
+- [x] `yum install --disablerepo=* --enablerepo=<repo name>` only activate specified repo and looks for it.
+- [x] `yum group list hidden` <---> shows all avaliable group repos
+- [x] `yum group info "group name` <---> shows all avaliable packages under specified group
